@@ -10,7 +10,7 @@ button { width:18%; }
 </style>
 <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 <script>
-var serverIP = "192.168.1.xxx"; // ضع هنا IP الكمبيوتر
+var serverIP = "192.168.56.1"; // ضع هنا IP الكمبيوتر
 var socket = io('http://' + serverIP + ':5000');
 function sendMsg() {
     var msg = document.getElementById('msg').value;
